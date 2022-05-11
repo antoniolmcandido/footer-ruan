@@ -2,23 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&family=Righteous&family=Sarala&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    clear: none;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-html{
+html {
     font-size: 62.5%
 }
 
-body{
+body {
     font-size: 100%;
     background: linear-gradient(68.15deg, #4F4F4F 2.62%, #2C6C59 85.61%);
     height: relative;
+    margin: 0px;
+    padding: 0px;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,30 +31,31 @@ body{
     background-color: #222222;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     display: flex;
     height: 20%;
     width: 6em;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     display: flex;
-    gap: 3.2rem;   
+    gap: 3.2rem;
 }
 
-.cabecalho-item{
+.cabecalho-item {
     font-family: "Montserrat", "Poppins", sans-serif;
     color: white;
     font-weight: 500;
     font-size: 1.8rem;
 }
 
-.home{
+.home {
     border-top: 0.6px solid white;
     margin-bottom: 5%;
+    margin: 10px auto 0px;
 }
 
-.principal{
+.principal {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,41 +63,41 @@ body{
     margin-top: 2.99%;
 }
 
-.apresentacao{
+.apresentacao {
     display: flex;
     flex-direction: column;
     gap: 3em;
 }
 
-.home-titulo{
+.home-titulo {
     font-family: 'Righteous', cursive;
     color: white;
     font-weight: 400;
     font-size: 4.4rem;
 }
 
-.home-subtitulo{
+.home-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 2.4rem;
     color: white;
 }
 
-#nome{
+#nome {
     font-family: 'Righteous', cursive;
     color: #39E7BD;
     font-weight: 400;
     font-size: 6.4rem;
 }
 
-#fullstack{
+#fullstack {
     font-family: 'Righteous', cursive;
     color: #39E7BD;
     font-weight: 500;
     font-size: 2.4rem;
 }
 
-.botao-principal{
+.botao-principal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,11 +112,11 @@ body{
     font-size: 2.4rem;
 }
 
-.texto-botao{
+.texto-botao {
     color: black;
 }
 
-.home-imagem{
+.home-imagem {
     margin-top: 1%;
     display: flex;
     height: 30em;
@@ -120,7 +124,7 @@ body{
     border-radius: 100%;
 }
 
-.home-secundario{
+.home-secundario {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +134,7 @@ body{
     text-align: center;
 }
 
-.home-subtitulo-secundario{
+.home-subtitulo-secundario {
     border-top: 0.4px solid white;
     padding-top: 1.6%;
     margin-bottom: 0.5%;
@@ -140,24 +144,26 @@ body{
     color: white;
 }
 
-.home-texto-secundario{
+.home-texto-secundario {
     font-family: 'Sarala', sans-serif;
     font-size: 1.6rem;
     color: white;
     font-weight: 300;
 }
 
-footer{
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #222222;
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-    justify-content: center;
     border-top: 0.6px solid white;
-    padding: 0.94%;
+    bottom: 0;
+    left: 0;
+    position: relative;
 }
 
-#copyright{
+#copyright {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
@@ -181,7 +187,7 @@ footer{
         gap: 3em;
     }
 
-    .home-secundario{
+    .home-secundario {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -190,5 +196,5 @@ footer{
         margin-bottom: 5%;
         text-align: center;
     }
-    
+
 }
